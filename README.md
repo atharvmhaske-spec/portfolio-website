@@ -16,8 +16,5 @@ Atharv Mhaske
 ## 📞 Contact Me
 
 📧 Email: atharvmhaske4@gmail.com  
-🔗 LinkedIn:  
-https://www.linkedin.com/in/atharv-mhaske670604262
-
-🔗 GitHub:  
-https://github.com/atharvmhaske-spec
+🔗 LinkedIn:  https://www.linkedin.com/in/atharv-mhaske670604262
+🔗 GitHub:  https://github.com/atharvmhaske-spec
