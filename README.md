@@ -1,11 +1,23 @@
-# Atharv Portfolio
+# 🌐 Atharv Mhaske Portfolio
 
-This is my personal portfolio website built using HTML, CSS, and JavaScript.
+Welcome to my personal portfolio website 🚀
 
-## Features
-- Responsive Design
-- Projects Section
-- Contact Form
+This portfolio showcases my:
+- 👨‍💻 Skills
+- 📚 Projects
+- 🏆 Certifications
+- 💼 Internships
+- 🎓 Education
+- 📄 Resume
 
 ## Author
 Atharv Mhaske
+
+## 📞 Contact Me
+
+📧 Email: atharvmhaske4@gmail.com  
+🔗 LinkedIn:  
+https://www.linkedin.com/in/atharv-mhaske670604262
+
+🔗 GitHub:  
+https://github.com/atharvmhaske-spec
