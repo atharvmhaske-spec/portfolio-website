@@ -9,6 +9,13 @@ This portfolio showcases my:
 - 💼 Internships
 - 🎓 Education
 - 📄 Resume
+- 
+# 🛠️ Technologies Used
+HTML
+CSS
+JavaScript
+Python
+MySQL
 
 ## Author
 Atharv Mhaske
