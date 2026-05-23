@@ -11,11 +11,11 @@ This portfolio showcases my:
 - 📄 Resume
 - 
 # 🛠️ Technologies Used
-HTML
-CSS
-JavaScript
-Python
-MySQL
+- HTML
+- CSS
+- JavaScript
+- Python
+- MySQL
 
 ## Author
 Atharv Mhaske
