@@ -26,4 +26,4 @@ Atharv Mhaske
 
 🔗 LinkedIn:  https://www.linkedin.com/in/atharv-mhaske670604262
 
-🔗 GitHub:  https://github.com/atharvmhaske-spec
+🔗 GitHub:  https://www.linkedin.com/in/atharv-mhaske-670604262
