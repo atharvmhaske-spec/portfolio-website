@@ -1,245 +1,1014 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Atharv Mhaske - Computer Engineering Student, Python Developer and AWS Cloud enthusiast.">
-  <title>Atharv Mhaske | Python Developer</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Atharv Mhaske - AWS Cloud Engineer and Computer Engineering Student">
+
+    <meta name="author" content="Atharv Mhaske">
+
+    <title>Atharv Mhaske | AWS Cloud Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<!-- ================= NAVBAR ================= -->
+
 <header class="navbar">
-  <a class="logo" href="#home">AM<span>.</span></a>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <a class="nav-btn" href="#contact">Let's Connect</a>
+
+    <div class="container nav-container">
+
+        <a href="#home" class="logo">
+            <span>&lt;</span> Atharv<span>/&gt;</span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#journey">Journey</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </div>
+
 </header>
 
-<main>
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <div class="badge">AVAILABLE FOR OPPORTUNITIES</div>
-      <p class="eyebrow">COMPUTER ENGINEERING STUDENT • PYTHON DEVELOPER</p>
-      <h1>Hi, I'm <span>Atharv Mhaske</span>.</h1>
-      <p class="hero-text">
-        I build practical web applications and cloud-based solutions using
-        Python, Flask, AWS and modern web technologies.
-      </p>
-      <div class="hero-buttons">
-        <a class="btn primary" href="#projects">View My Work ↗</a>
-        <a class="btn secondary" href="https://github.com/atharvmhaske-spec" target="_blank">GitHub</a>
-      </div>
-      <div class="quick-info">
-        <span>📍 Maharashtra, India</span>
-        <span>☁️ AWS Cloud</span>
-        <span>🐍 Python</span>
-      </div>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="container hero-grid">
+
+        <div class="hero-content">
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Open to Opportunities
+            </div>
+
+            <p class="small-title">
+                AWS CLOUD ENGINEER
+            </p>
+
+            <h1>
+                Building scalable
+                <span>cloud solutions.</span>
+            </h1>
+
+            <p class="hero-description">
+                I'm <strong>Atharv Mhaske</strong>, a Computer Engineering
+                student focused on AWS Cloud, Python, Linux and modern
+                cloud-based applications.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn btn-primary">
+                    View Projects →
+                </a>
+
+                <a href="https://github.com/atharvmhaske-spec"
+                   target="_blank"
+                   class="btn btn-secondary">
+                    GitHub ↗
+                </a>
+
+            </div>
+
+            <div class="quick-stats">
+
+                <div>
+                    <strong>AWS</strong>
+                    <span>Cloud</span>
+                </div>
+
+                <div>
+                    <strong>Python</strong>
+                    <span>Development</span>
+                </div>
+
+                <div>
+                    <strong>Linux</strong>
+                    <span>Server</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Terminal -->
+
+        <div class="terminal">
+
+            <div class="terminal-header">
+
+                <div class="terminal-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <p>atharv@cloud:~</p>
+
+            </div>
+
+            <div class="terminal-body">
+
+                <p>
+                    <span class="terminal-green">atharv@cloud</span>:~$
+                    whoami
+                </p>
+
+                <p class="terminal-output">
+                    AWS Cloud Engineer
+                </p>
+
+                <p>
+                    <span class="terminal-green">atharv@cloud</span>:~$
+                    aws --version
+                </p>
+
+                <p class="terminal-output">
+                    AWS CLI / Cloud Computing
+                </p>
+
+                <p>
+                    <span class="terminal-green">atharv@cloud</span>:~$
+                    kubectl status
+                </p>
+
+                <p class="terminal-output">
+                    Cloud journey in progress...
+                </p>
+
+                <p>
+                    <span class="terminal-green">atharv@cloud</span>:~$
+                    <span class="cursor"></span>
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="hero-card">
-      <div class="code-top"><span></span><span></span><span></span></div>
-      <pre><code><span class="purple">class</span> <span class="cyan">Atharv</span>:
+</section>
 
-    role = <span class="green">"Python Developer"</span>
-    focus = <span class="green">"Cloud & Web"</span>
-    skills = [
-        <span class="green">"Python"</span>,
-        <span class="green">"Flask"</span>,
-        <span class="green">"AWS"</span>,
-        <span class="green">"SQL"</span>
-    ]
 
-    <span class="purple">def</span> <span class="cyan">build</span>(self):
-        <span class="purple">return</span> <span class="green">"Ideas → Projects"</span></code></pre>
-    </div>
-  </section>
+<!-- ================= ABOUT ================= -->
 
-  <section id="about" class="section">
-    <div class="section-heading">
-      <span>01</span>
-      <h2>About Me</h2>
-    </div>
-    <div class="about-grid">
-      <div>
-        <p class="lead">
-          I'm a Computer Engineering student passionate about software development,
-          web development, AWS Cloud and practical technology projects.
-        </p>
-        <p>
-          I enjoy turning ideas into working applications, learning new technologies
-          and solving problems through clean and useful software. My current technical
-          focus includes Python, Flask/Django, SQL, AWS and Linux.
-        </p>
-      </div>
-      <div class="stats">
-        <div><strong>2028</strong><span>B.E. Graduation</span></div>
-        <div><strong>87.83%</strong><span>Diploma Score</span></div>
-        <div><strong>80%</strong><span>B.E. Score</span></div>
-        <div><strong>Python</strong><span>Primary Language</span></div>
-      </div>
-    </div>
-  </section>
+<section id="about" class="section">
 
-  <section id="skills" class="section">
-    <div class="section-heading">
-      <span>02</span>
-      <h2>Skills</h2>
-    </div>
-    <div class="skills-grid">
-      <div class="skill-card"><b>Python</b><span>Programming • Automation</span></div>
-      <div class="skill-card"><b>Flask / Django</b><span>Web Development • APIs</span></div>
-      <div class="skill-card"><b>AWS Cloud</b><span>S3 • EC2 • IAM</span></div>
-      <div class="skill-card"><b>SQL</b><span>SQLite • MySQL</span></div>
-      <div class="skill-card"><b>C / C++</b><span>Programming Fundamentals</span></div>
-      <div class="skill-card"><b>Web</b><span>HTML • CSS • JavaScript</span></div>
-      <div class="skill-card"><b>Linux</b><span>Ubuntu • CLI</span></div>
-      <div class="skill-card"><b>Git & GitHub</b><span>Version Control</span></div>
-    </div>
-  </section>
+    <div class="container">
 
-  <section id="experience" class="section">
-    <div class="section-heading">
-      <span>03</span>
-      <h2>Experience</h2>
-    </div>
-    <div class="timeline">
-      <article class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">6 WEEKS</div>
-        <h3>Data Science Intern — V2V EDTECH LLP</h3>
-        <p>
-          Python programming, data analysis, NumPy, Pandas and machine-learning concepts,
-          with practical assignments and project-oriented training.
-        </p>
-      </article>
-      <article class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-date">7 DAYS</div>
-        <h3>Trainee Developer Intern — iBase Electrosoft LLP</h3>
-        <p>
-          Practical Python development training focused on software development,
-          programming fundamentals and hands-on technical work.
-        </p>
-      </article>
-    </div>
-  </section>
+        <div class="section-heading">
 
-  <section id="projects" class="section">
-    <div class="section-heading">
-      <span>04</span>
-      <h2>Featured Projects</h2>
-    </div>
-    <div class="projects-grid">
-      <article class="project-card featured">
-        <span class="project-number">01</span>
-        <div class="project-icon">☁</div>
-        <h3>CloudStorage</h3>
-        <p>A Flask cloud file-storage application using SQLite and AWS S3 for file management, folders, sharing and storage workflows.</p>
-        <div class="tags"><span>Python</span><span>Flask</span><span>AWS S3</span><span>SQLite</span></div>
-      </article>
-      <article class="project-card">
-        <span class="project-number">02</span>
-        <div class="project-icon">◈</div>
-        <h3>Smart Personalized Learning Platform</h3>
-        <p>Education platform concept for personalized course recommendations, learning tracking and student-focused experiences.</p>
-        <div class="tags"><span>Python</span><span>Flask</span><span>Web</span></div>
-      </article>
-      <article class="project-card">
-        <span class="project-number">03</span>
-        <div class="project-icon">◎</div>
-        <h3>Student Feedback System</h3>
-        <p>Application for collecting and managing student feedback with a focus on simple digital data handling.</p>
-        <div class="tags"><span>Python</span><span>SQL</span><span>Web</span></div>
-      </article>
-      <article class="project-card">
-        <span class="project-number">04</span>
-        <div class="project-icon">▣</div>
-        <h3>Project Management System</h3>
-        <p>Web-based project management concept for organizing projects, tasks and progress in one place.</p>
-        <div class="tags"><span>Python</span><span>Flask</span><span>SQL</span></div>
-      </article>
-      <article class="project-card">
-        <span class="project-number">05</span>
-        <div class="project-icon">🛒</div>
-        <h3>Online Grocery Store</h3>
-        <p>Online shopping project concept with product browsing and digital store functionality.</p>
-        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-      </article>
-    </div>
-  </section>
+            <p class="section-label">01 / ABOUT</p>
 
-  <section id="education" class="section">
-    <div class="section-heading">
-      <span>05</span>
-      <h2>Education & Training</h2>
-    </div>
-    <div class="education-list">
-      <article class="education-card">
-        <span class="year">2025 — 2028</span>
-        <h3>B.E. Computer Engineering</h3>
-        <p>Samarth College of Engineering, Belhe</p>
-        <small>Savitribai Phule Pune University • 80%</small>
-      </article>
-      <article class="education-card">
-        <span class="year">2022 — 2025</span>
-        <h3>Diploma in Computer Engineering</h3>
-        <p>Samarth Polytechnic, Belhe</p>
-        <small>87.83%</small>
-      </article>
-      <article class="education-card">
-        <span class="year">2022</span>
-        <h3>Class X</h3>
-        <p>Shri Sainath High School, Alkuti</p>
-        <small>84.40%</small>
-      </article>
+            <h2>
+                Cloud-focused developer
+                <span>with a builder mindset.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-text">
+
+                <p>
+                    I am a Computer Engineering student passionate about
+                    cloud computing, software development and modern
+                    infrastructure.
+                </p>
+
+                <p>
+                    My current focus is building practical solutions using
+                    AWS services such as EC2, S3, IAM, CloudFront,
+                    Route 53 and Auto Scaling.
+                </p>
+
+                <p>
+                    I also work with Python, Flask, SQL, Linux and Git
+                    to build and deploy real-world applications.
+                </p>
+
+            </div>
+
+
+            <div class="about-card">
+
+                <div class="about-icon">☁</div>
+
+                <h3>Cloud Engineer Profile</h3>
+
+                <p>
+                    Learning by building real projects,
+                    experimenting with AWS infrastructure and
+                    solving practical deployment problems.
+                </p>
+
+                <div class="about-tags">
+
+                    <span>AWS</span>
+                    <span>Python</span>
+                    <span>Linux</span>
+                    <span>Git</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="certifications">
-      <h3>Training & Certifications</h3>
-      <div class="cert-list">
-        <span>Java Training — Samarth College</span>
-        <span>Infosys Springboard — Basics of Python</span>
-        <span>Skillified Mentor — Professional Career Development</span>
-        <span>Student Feedback System — Paper Publication</span>
-      </div>
-    </div>
-  </section>
+</section>
 
-  <section id="contact" class="contact-section">
-    <div class="contact-box">
-      <span class="eyebrow">06 — CONTACT</span>
-      <h2>Let's build something useful.</h2>
-      <p>
-        I'm interested in software development, Python, web applications and
-        cloud technologies. Feel free to connect with me.
-      </p>
-      <div class="contact-buttons">
-        <a class="btn primary" href="mailto:atharvmhaske4@gmail.com">Email Me</a>
-        <a class="btn secondary" href="https://www.linkedin.com/in/atharv-mhaske-670604262" target="_blank">LinkedIn ↗</a>
-        <a class="btn secondary" href="https://github.com/atharvmhaske-spec" target="_blank">GitHub ↗</a>
-      </div>
-      <div class="contact-details">
-        <span>✉ atharvmhaske4@gmail.com</span>
-        <span>☎ +91-9822249025</span>
-        <span>📍 Maharashtra, India</span>
-      </div>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="section skills-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-label">02 / SKILLS</p>
+
+            <h2>
+                AWS & Cloud
+                <span>Technology Stack.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <div class="skill-number">01</div>
+
+                <div class="skill-icon">EC2</div>
+
+                <h3>Amazon EC2</h3>
+
+                <p>
+                    Instance deployment, SSH, Linux servers,
+                    Apache/httpd and security groups.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">02</div>
+
+                <div class="skill-icon">S3</div>
+
+                <h3>Amazon S3</h3>
+
+                <p>
+                    Object storage, static websites,
+                    bucket policies, versioning and lifecycle.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">03</div>
+
+                <div class="skill-icon">IAM</div>
+
+                <h3>AWS IAM</h3>
+
+                <p>
+                    Users, groups, policies, roles and
+                    permission management.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">04</div>
+
+                <div class="skill-icon">VPC</div>
+
+                <h3>Networking</h3>
+
+                <p>
+                    VPC fundamentals, subnets, route tables,
+                    security groups and networking concepts.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">05</div>
+
+                <div class="skill-icon">CDN</div>
+
+                <h3>CloudFront</h3>
+
+                <p>
+                    CDN concepts, S3 integration,
+                    distributions and secure content delivery.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">06</div>
+
+                <div class="skill-icon">DNS</div>
+
+                <h3>Route 53</h3>
+
+                <p>
+                    DNS concepts, hosted zones,
+                    records and domain routing.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">07</div>
+
+                <div class="skill-icon">LIN</div>
+
+                <h3>Linux</h3>
+
+                <p>
+                    Linux commands, filesystem,
+                    permissions, services and server administration.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-number">08</div>
+
+                <div class="skill-icon">CLI</div>
+
+                <h3>AWS CLI</h3>
+
+                <p>
+                    Command-line interaction with AWS
+                    services and cloud resources.
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
-  </section>
-</main>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-label">03 / PROJECTS</p>
+
+            <h2>
+                Projects built
+                <span>with cloud in mind.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <article class="project-card featured">
+
+                <div class="project-top">
+
+                    <span class="project-type">
+                        AWS + PYTHON
+                    </span>
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                </div>
+
+                <h3>
+                    CloudStorage
+                </h3>
+
+                <p>
+                    A Flask-based cloud file storage platform using
+                    Amazon S3 and SQLite. Includes file uploads,
+                    folders, search, sharing, starred files and
+                    trash/restore functionality.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>SQLite</span>
+                    <span>AWS S3</span>
+
+                </div>
+
+                <div class="project-arrow">
+                    Cloud Storage →
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+
+            <article class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-type">
+                        AWS EC2
+                    </span>
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                </div>
+
+                <h3>
+                    EC2 Web Server
+                </h3>
+
+                <p>
+                    Deployed a web server on Amazon Linux using
+                    EC2, SSH and Apache/httpd. Configured security
+                    groups and server files for web hosting.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>EC2</span>
+                    <span>Amazon Linux</span>
+                    <span>Apache</span>
+                    <span>SSH</span>
+
+                </div>
+
+                <div class="project-arrow">
+                    Server Deployment →
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+
+            <article class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-type">
+                        S3 + CLOUDFRONT
+                    </span>
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                </div>
+
+                <h3>
+                    Static Website Hosting
+                </h3>
+
+                <p>
+                    Hosted static website content using Amazon S3
+                    and explored CloudFront for CDN-based content
+                    delivery and improved availability.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>S3</span>
+                    <span>CloudFront</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+
+                </div>
+
+                <div class="project-arrow">
+                    Static Hosting →
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 4 -->
+
+            <article class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-type">
+                        AUTO SCALING
+                    </span>
+
+                    <span class="project-number">
+                        04
+                    </span>
+
+                </div>
+
+                <h3>
+                    EC2 Auto Scaling Architecture
+                </h3>
+
+                <p>
+                    Practiced AMI creation, launch templates,
+                    Auto Scaling Groups and load balancing concepts
+                    for scalable EC2 deployments.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>EC2</span>
+                    <span>AMI</span>
+                    <span>ASG</span>
+                    <span>Load Balancer</span>
+
+                </div>
+
+                <div class="project-arrow">
+                    Scalable Infrastructure →
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 5 -->
+
+            <article class="project-card">
+
+                <div class="project-top">
+
+                    <span class="project-type">
+                        PYTHON
+                    </span>
+
+                    <span class="project-number">
+                        05
+                    </span>
+
+                </div>
+
+                <h3>
+                    DNS Lookup Application
+                </h3>
+
+                <p>
+                    Python application that performs domain-to-IP
+                    and IP-to-hostname lookups using DNS resolution.
+                </p>
+
+                <div class="project-tech">
+
+                    <span>Python</span>
+                    <span>DNS</span>
+                    <span>Networking</span>
+
+                </div>
+
+                <div class="project-arrow">
+                    Networking Project →
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= JOURNEY ================= -->
+
+<section id="journey" class="section journey-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-label">04 / JOURNEY</p>
+
+            <h2>
+                My cloud
+                <span>learning journey.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker">
+                    01
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>FOUNDATION</span>
+
+                    <h3>
+                        Cloud Computing Fundamentals
+                    </h3>
+
+                    <p>
+                        Learned cloud computing concepts,
+                        service models, deployment models and
+                        basic AWS architecture.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker">
+                    02
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>STORAGE</span>
+
+                    <h3>
+                        AWS S3
+                    </h3>
+
+                    <p>
+                        Practiced buckets, objects, storage classes,
+                        versioning, lifecycle policies, replication
+                        and static website hosting.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker">
+                    03
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>COMPUTE</span>
+
+                    <h3>
+                        EC2 & Linux
+                    </h3>
+
+                    <p>
+                        Worked with EC2 instances, Amazon Linux,
+                        SSH, Apache, security groups, AMIs and
+                        server configuration.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker">
+                    04
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>SECURITY</span>
+
+                    <h3>
+                        IAM
+                    </h3>
+
+                    <p>
+                        Learned IAM users, groups, roles,
+                        policies and least-privilege concepts.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker">
+                    05
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>NETWORKING</span>
+
+                    <h3>
+                        VPC, CloudFront & Route 53
+                    </h3>
+
+                    <p>
+                        Studied networking, DNS, CDN,
+                        subnets, route tables and
+                        secure application delivery.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-marker">
+                    06
+                </div>
+
+                <div class="timeline-content">
+
+                    <span>SCALABILITY</span>
+
+                    <h3>
+                        Load Balancing & Auto Scaling
+                    </h3>
+
+                    <p>
+                        Practiced AMIs, launch templates,
+                        Auto Scaling Groups and load balancing
+                        architecture.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="section education-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="section-label">05 / EDUCATION</p>
+
+            <h2>
+                Education &
+                <span>training.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="education-grid">
+
+
+            <div class="education-card">
+
+                <span class="education-year">
+                    2025 — 2028
+                </span>
+
+                <h3>
+                    B.E. Computer Engineering
+                </h3>
+
+                <p>
+                    Samarth College of Engineering,
+                    Belhe
+                </p>
+
+                <small>
+                    Savitribai Phule Pune University
+                </small>
+
+                <strong>
+                    80%
+                </strong>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <span class="education-year">
+                    Completed 2025
+                </span>
+
+                <h3>
+                    Diploma in Computer Engineering
+                </h3>
+
+                <p>
+                    Samarth Polytechnic, Belhe
+                </p>
+
+                <strong>
+                    87.83%
+                </strong>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <span class="education-year">
+                    Internship
+                </span>
+
+                <h3>
+                    Python with Data Science
+                </h3>
+
+                <p>
+                    V2V EDTECH LLP
+                </p>
+
+                <small>
+                    6-week internship
+                </small>
+
+            </div>
+
+
+            <div class="education-card">
+
+                <span class="education-year">
+                    Internship
+                </span>
+
+                <h3>
+                    Python Internship
+                </h3>
+
+                <p>
+                    iBase Electrosoft LLP
+                </p>
+
+                <small>
+                    7-day trainee developer internship
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section contact-section">
+
+    <div class="container">
+
+        <div class="contact-box">
+
+            <div>
+
+                <p class="section-label">
+                    06 / CONTACT
+                </p>
+
+                <h2>
+                    Let's build something
+                    <span>on the cloud.</span>
+                </h2>
+
+                <p>
+                    I'm open to internships, cloud projects,
+                    software development opportunities and
+                    collaborations.
+                </p>
+
+            </div>
+
+
+            <div class="contact-links">
+
+                <a href="mailto:atharvmhaske4@gmail.com">
+                    <span>Email</span>
+                    atharvmhaske4@gmail.com
+                </a>
+
+                <a href="https://github.com/atharvmhaske-spec"
+                   target="_blank">
+
+                    <span>GitHub</span>
+                    github.com/atharvmhaske-spec
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/atharv-mhaske-670604262"
+                   target="_blank">
+
+                    <span>LinkedIn</span>
+                    linkedin.com/in/atharv-mhaske-670604262
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
 
 <footer>
-  <strong>Atharv Mhaske</strong>
-  <span>© 2026 • Built with HTML, CSS & JavaScript</span>
-  <a href="#home">Back to top ↑</a>
+
+    <div class="container footer-content">
+
+        <p>
+            © <span id="year"></span> Atharv Mhaske
+        </p>
+
+        <p>
+            Built with HTML • CSS • JavaScript
+        </p>
+
+    </div>
+
 </footer>
 
+
 <script src="script.js"></script>
+
 </body>
 </html>
